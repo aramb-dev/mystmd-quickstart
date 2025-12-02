@@ -1,0 +1,19 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 700afd79-e562-4b0f-be12-01d549d56105
+  title: Exploring Arithmetic and Geometric Sequences Through Real-Life Patterns
+  description: Comparing A.P. and G.P. sequences using real-life scenarios
+  keywords: [mathematics, sequences, arithmetic progression, geometric progression]
+  authors:
+    - name: Abdur-Rahman Bilal
+  github: https://github.com/jupyter-book/mystmd-quickstart
+  toc:
+    - file: report/sequences-report.md
+  exports:
+    - format: typst
+      article: report/sequences-report.md
+    - format: docx
+      article: report/sequences-report.md
+site:
+  template: book-theme
